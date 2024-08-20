@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    padding: 2%
+    
+}
+#left{
+    width: 40%;
+    height: 100%;
+    background-color: azure;
+    position: relative;
+}
+#lnav{
+    width: 100%;
+    padding: 20px 30px;
+    justify-content: space-between;
+    display: flex;
+}
+#lnavr{
+    align-items: center;
+    display: flex;
+}
+#lnavr a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+#lnavr i{
+    color: royalblue;
+}
+#left #textcenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+#textcenter h1{
+    font-size: 90px;
+    font-weight: 900;
+}
+#textcenter p{
+    opacity: 0.6;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 22px;
+    margin-bottom: 22px ;
+}
+
+#textcenter i{
+justify-content: center;
+    color: black;
+    opacity: 2
+}
+#right{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+}
+#rtop{
+    width: 100%;
+    display: flex;
+    height: 50%;
+    background-color: rgb(27, 196, 148);
+}
+#rbottom{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    background-size:80%;
+    background-position: center;
+    background-image: url(https://i.pinimg.com/736x/4e/5f/c7/4e5fc746f35b6c1815c9aeba4d4b37d6.jpg);
+}
+#rtopleft{
+    width: 55%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://i.pinimg.com/564x/b0/d5/cc/b0d5cc258475d7c658d75aea49b0abb5.jpg);
+
+}
+#rtopright{
+    width: 45%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(https://images.pexels.com/photos/2093089/pexels-photo-2093089.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-position: center;
+}
+
+
+
+
+
+/*-----------(*/
+
+#left2{
+    width: 55%;
+    height: 100%;
+    background-color: white;
+}
+#ltop{
+    width: 100%;
+    display: flex;
+    height: 50%;
+    background-color: rgb(6, 184, 248);
+}
+#ltopright{
+    width: 45%;
+    background-color: aquamarine;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/564x/c9/1a/4a/c91a4a1cb0de8f9f14d47ae0bbad9ce0.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#ltopleft{
+    width: 55%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://i.pinimg.com/564x/c9/1a/4a/c91a4a1cb0de8f9f14d47ae0bbad9ce0.jpg);
+}
+#lbottom{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    background-size:80%;
+    background-position: center;
+    background-image: url(https://i.pinimg.com/564x/63/57/25/6357253d6a8c592ced51b5a790513499.jpg);
+}
+#right2{
+    width: 45%;
+    height: 100%;
+    background-color: azure;
+    position: relative;
+}
+#right2 #topr2{
+    width: 100%;
+    height: 50%;
+    background-color:azure;
+}
+#right2 #textcenter2{
+    position: absolute;
+    
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+#textcenter2 h4{
+    font-size: 35px;
+    font-weight: 900;
+    
+}
+#textcenter2 p{
+    opacity: 0.6;
+    font-size: 13px;
+    line-height: 24px;
+    margin-top: 22px;
+    margin-bottom: 22px ;
+}
+
+#right2 #bottomr2{
+    width: 100%;
+    height: 50%;
+    display: block;
+    background-color: rgb(197, 241, 241);
+    
+}
+
+#right2 #bottomr2 #textcenter3{
+    position: absolute;
+    
+    margin-top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+    
+}
+
+#textcenter3 h4{
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+#textcenter3 p{
+    opacity: 0.6;
+    font-size: 13px;
+    line-height: 24px;
+    margin-top: 11px;
+    margin-bottom: 14px ;
+}
+
+
+/*****************************/
+
+
+
+#left3{
+    width: 40%;
+    height: 100%;
+    background-color: azure;
+    position: relative;
+}
+
+#left3 #textcenter3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+#textcenter3 h4{
+    font-size: 50px;
+    font-weight: 900;
+}
+#textcenter3 p{
+    opacity: 0.6;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px ;
+}
+
+
+#right3{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+}
+#rtop3{
+    width: 100%;
+    display: flex;
+    height: 50%;
+    background-color: rgb(27, 196, 148);
+}
+#rbottom3{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    background-size:80%;
+    background-position: center;
+    background-image: url(https://cdn.create.vista.com/api/media/small/452524152/stock-photo-various-tropical-fruits-black-background);
+    }
+#rtopleft3{
+    width: 55%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+}
+#rtopright3{
+    width: 45%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1701743805374-063bf58c3d3e?q=80&w=2265&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+
+    
+    /*******************************/
+
+}
+
+    #container{
+        background-color: azure;
+        height: 40%;
+        width: 100%;
+       /* max-width: 800px;*/
+        margin: 50px auto;
+        padding: 0 20px;
+        text-align: center;
+        color: #000000;
+    }
+
+    #container h1 {
+        margin-top: 5%;
+        font-size: 36px;
+        color: #0e467f; /* azure */
+    }
+    
+   #container p {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #000000; /* black */
+    }
+
+    #container i{
+        color: royalblue;
+       
+    }

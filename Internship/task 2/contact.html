@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightblue;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #000;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #333;
+        }
+        .social-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #000;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+
+
+        .back-button {
+            display: inline-block;
+            padding: 14px 34px;
+            background: var(--main-color);
+            text-align: left;
+            color:var(--text-color);
+            border: 2px solid var(--main-color);
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: all .6s ease-in-out;
+            cursor: pointer;
+}
+         .back-button:hover {
+            background-color: #e0d9d9;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+
+        <button id="backButton" class="back-button">Back</button>
+
+        <h1>Contact Me</h1>
+        <div class="contact-info">
+            <p><strong>Phone:</strong> +91 7802046680</p>
+            <p><strong>Email:</strong> riyabpatel123@gmail.com</p>
+        </div>
+        <form id="contactForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/riya-patel-a125a2315/" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/_riyaa.23/" target="_blank">Instagram</a>
+        </div>
+    </div>
+    <script>
+
+        document.getElementById('backButton').addEventListener('click', function() {
+    window.history.back();
+});
+
+
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const message = document.getElementById('message').value;
+            
+            if (name && email && phone && message) {
+                alert('Thank you for your message!');
+                // Here you would normally send the form data to the server
+            } else {
+                alert('Please fill out all fields.');
+            }
+        });
+    </script>
+</body>
+</html>
